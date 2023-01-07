@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>survey-form</title>
+        <link rel="stylesheet" href="surveyform.css">
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            Name:<br>
+            <input type ="text" id="name" placeholder="Enter Your Name" required><br>
+            Email:<br>
+            <input type="text" id="email" placeholder="Enter Your Email" required><br>
+            Age(Optional)<br>
+            <input type="number" id="number" age="age" placeholder="Age" required><br>
+            <h2>Which option best describes your current role?</h2>
+            <select id="dropdown">
+                <option disabled selected>select current role</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Leaner</option>            
+                <option>Prefer not Not say</option>
+                <option>other</option>
+            </select>
+            <h2>Would you recommend freeCodeCamp to a friend?</h2>
+                <input type="radio" name="modern" value="attribute">Definitely<br>
+                <input type="radio" name="modern" value="attribute">Maybe<br>
+                <input type="radio" name="modern" value="b2">Not sure
+            <h2>What is your favorite feature of freeCodeCamp?</h2>
+            <select id="select">
+                <option disabled selected>Select an option</option>
+                <option>Callenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source </option>
+            </select>
+
+            <h2>What would you like to see improved? (Check all tha apply)</h2>
+            <input type="checkbox" name="feature" value="attribute">Front-end Projects<br>
+            <input type="checkbox" name="feature" value="attribute">Data Visualizations<br>
+            <input type="checkbox" name="feature" value="attribute">Challenges<br>
+            <input type="checkbox" name="feature" value="attribute">Open Source Community<br>
+            <input type="checkbox" name="feature" value="attribute">Gitter help rooms<br>
+            <input type="checkbox" name="feature" value="attribute">Videos<br>
+            <input type="checkbox" name="feature" value="attribute">City Meetups<br>
+            <input type="checkbox" name="feature" value="attribute">Wiki<br>
+            <input type="checkbox" name="feature" value="attribute">Forum<br>
+            <input type="checkbox" name="feature" value="attribute">Additional Courses<br>
+            <h2>Any comments or suggestions?</h2>
+            <textarea id="text" placeholder="Enter your Comment Hear" required></textarea><br>
+            <button id="submit">Submit</button>
+            <!-- <button type="button" id="Submit">Submit</button> -->
+        </form>
+    </body>
+</html>

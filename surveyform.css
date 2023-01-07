@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(17, 10, 58, 0.85);
+    font-size: 20px;
+    background-position: fixed;
+    padding: 5cm 8cm 5cm 8cm;
+    text-align: justify;
+    line-height: 1.2;
+    font-weight: 100;
+    color: white;
+}
+#title {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#description {
+    font-size: 18px;
+    text-align: center;
+}
+#name {
+    font-size: 1.5rem;
+    margin-top: 3px;
+    margin-bottom: 1rem;
+}
+#email {
+    margin-top: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#number {
+    margin-top: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#dropdown {
+    margin-top: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#select {
+    font-size: 1.5rem;
+    margin-top: 3px;
+}
+#headers2 {
+    font-size: 5px;
+}
+#text {
+    margin-top: 0.5px;
+    font-size: 3rem;
+}
+#submit {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    align-content: center;
+}
